@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/auditargvpro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audit identifiers and argv tokens for idempotent workflows.",
+  "bin": {
+    "auditargvpro": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/auditargvpro.git"
+  },
+  "homepage": "https://theworker02.github.io/auditargvpro/",
+  "keywords": [
+    "audit",
+    "argv",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
